@@ -1,0 +1,87 @@
+[workspace]
+name = "<your-project-name>"
+resolver = "2"
+members = [
+    "crates/proc-macros",
+    "crates/types",
+    "crates/macros",
+    "crates/io",
+    "crates/utils",
+    "crates/tests",
+    "crates/bins",
+    "crates/errors",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+# External dependencies
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "^1.0"
+regex = "^1.5"
+log = "^0.4"
+env_logger = "^0.9"
+anyhow = "^1.0"
+thiserror = "^1.0"
+clap = { version = "^3.0", features = ["derive"] }
+toml = "^0.5"
+lazy_static = "^1.4"
+
+# Dependencies for specific workspace members
+proc-macros = { path = "crates/proc-macros" }
+types = { path = "crates/types" }
+macros = { path = "crates/macros" }
+io = { path = "crates/io" }
+utils = { path = "crates/utils" }
+tests = { path = "crates/tests" }
+bins = { path = "crates/bins" }
+errors = { path = "crates/errors" }
+
+[profile.dev]
+opt-level = 1
+debug = true
+overflow-checks = true
+lto = false
+
+[profile.release]
+opt-level = 3
+debug = false
+overflow-checks = true
+lto = true
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/<CHANGE HERE::your-username-name>/<CHANGE HERE::your-project-name>"
+description = "<CHANGE HERE::your-project-description>"
+documentation = "https://docs.rs/<CHANGE HERE::your-project-name>"
+readme = "README.md"
+keywords = ["<CHANGE HERE::your-project-keyword>", "<CHANGE HERE::your-project-keyword>", "<CHANGE HERE::your-project-keyword>"]
+categories = ["development-tools", "parsing"]
+
+[workspace.metadata]
+# Custom metadata for your workspace
+
+# Information about the maintainers of the project
+maintainers = [
+    { name = "Your Name", email = "your.email@example.com" },
+    { name = "Contributor Name", email = "contributor.email@example.com" }
+]
+
+# Links to additional resources
+resources = [
+    { name = "Homepage", url = "https://cmakelang.example.com" },
+    { name = "Issue Tracker", url = "https://github.com/yourusername/cmakelang/issues" },
+    { name = "CI Pipeline", url = "https://ci.example.com/yourusername/cmakelang" }
+]
+
+# Tags for categorizing the project
+tags = ["cmake", "formatter", "rust", "development-tools"]
+
+# Custom build scripts or tools
+build = { script = "build.rs", tool = "cargo-make" }
+
+# Additional notes or comments
+notes = "This project is in active development. Contributions are welcome!"
