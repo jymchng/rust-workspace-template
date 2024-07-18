@@ -1,4 +1,5 @@
-# `<your-project-name>`
+<div align = "center">
+<h1>`your-project-name`</h1>
 
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" height="20">
@@ -68,7 +69,8 @@
   <img alt="Rust Safety" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/safety.yml/badge.svg" height="20">
   <img alt="Rust Scheduled" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/scheduled.yml/badge.svg" height="20">
   <img alt="Rust Test" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/test.yml/badge.svg" height="20">
-
+<p>
+</div>
 Welcome to the `<your-project-name>` Rust workspace! This project is designed to provide a comprehensive template for developing Rust applications with multiple crates. Below, you'll find detailed descriptions of each crate and instructions on how to use this template effectively.
 
 ## Table of Contents
