@@ -1,26 +1,97 @@
 # `<your-project-name>`
 
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/issues">
+    <img src="https://img.shields.io/github/issues/jymchng/rust-workspace-template" alt="GitHub issues" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/network">
+    <img src="https://img.shields.io/github/forks/jymchng/rust-workspace-template" alt="GitHub forks" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/stargazers">
+    <img src="https://img.shields.io/github/stars/jymchng/rust-workspace-template" alt="GitHub stars" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template">
+    <img src="https://img.shields.io/github/license/jymchng/rust-workspace-template" alt="GitHub license" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/commits/main">
+    <img src="https://img.shields.io/github/last-commit/jymchng/rust-workspace-template" alt="GitHub last commit" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/jymchng/rust-workspace-template" alt="GitHub contributors" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/jymchng/rust-workspace-template" alt="GitHub pull requests" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/releases">
+    <img src="https://img.shields.io/github/release/jymchng/rust-workspace-template" alt="GitHub release" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template">
+    <img src="https://img.shields.io/github/repo-size/jymchng/rust-workspace-template" alt="GitHub repo size" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/commits">
+    <img src="https://img.shields.io/github/commit-activity/m/jymchng/rust-workspace-template" alt="GitHub commit activity" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template">
+    <img src="https://img.shields.io/github/languages/code-size/jymchng/rust-workspace-template" alt="GitHub code size in bytes" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template">
+    <img src="https://img.shields.io/github/languages/count/jymchng/rust-workspace-template" alt="GitHub language count" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template">
+    <img src="https://img.shields.io/github/languages/top/jymchng/rust-workspace-template" alt="GitHub top language" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/releases">
+    <img src="https://img.shields.io/github/downloads/jymchng/rust-workspace-template/total" alt="GitHub download count" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/watchers">
+    <img src="https://img.shields.io/github/watchers/jymchng/rust-workspace-template" alt="GitHub watchers" height="20">
+  </a>
+  <a href="https://github.com/jymchng">
+    <img src="https://img.shields.io/github/followers/jymchng?label=Follow" alt="GitHub followers" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/discussions">
+    <img src="https://img.shields.io/github/discussions/jymchng/rust-workspace-template" alt="GitHub discussions" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/issues?q=is%3Aissue+is%3Aclosed">
+    <img src="https://img.shields.io/github/issues-closed/jymchng/rust-workspace-template" alt="GitHub issues closed" height="20">
+  </a>
+  <a href="https://github.com/jymchng/rust-workspace-template/milestones">
+    <img src="https://img.shields.io/github/milestones/all/jymchng/rust-workspace-template" alt="GitHub milestones" height="20">
+  </a>
+  <a href="https://github.com/sponsors/jymchng">
+    <img src="https://img.shields.io/badge/funding-donate-brightgreen" alt="GitHub funding" height="20">
+  </a>
+  <img alt="Rust Check" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/check.yml/badge.svg" height="20">
+  <img alt="Rust NoSTD" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/nostd.yml/badge.svg" height="20">
+  <img alt="Rust Safety" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/safety.yml/badge.svg" height="20">
+  <img alt="Rust Scheduled" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/scheduled.yml/badge.svg" height="20">
+  <img alt="Rust Test" src="https://github.com/jymchng/rust-workspace-template/actions/workflows/test.yml/badge.svg" height="20">
+
 Welcome to the `<your-project-name>` Rust workspace! This project is designed to provide a comprehensive template for developing Rust applications with multiple crates. Below, you'll find detailed descriptions of each crate and instructions on how to use this template effectively.
 
 ## Table of Contents
 
-1. Workspace Overview
-2. Crate Descriptions
-    - proc-macros
-    - types
-    - macros
-    - io
-    - utils
-    - tests
-    - bins
-    - errors
-3. Dependencies
-4. Profiles
-5. Package Metadata
-6. Usage Instructions
-7. Contributing
-8. License
-9. Additional Resources
+1. [Workspace Overview](#workspace-overview)
+2. [Crate Descriptions](#crate-descriptions)
+    - [proc-macros](#proc-macros)
+    - [types](#types)
+    - [macros](#macros)
+    - [io](#io)
+    - [utils](#utils)
+    - [tests](#tests)
+    - [bins](#bins)
+    - [errors](#errors)
+3. [Dependencies](#dependencies)
+4. [Profiles](#profiles)
+    - [Development Profile](#development-profile)
+    - [Release Profile](#release-profile)
+5. [Package Metadata](#package-metadata)
+6. [Usage Instructions](#usage-instructions)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Additional Resources](#additional-resources)
 
 ## Workspace Overview
 
@@ -131,9 +202,3 @@ Contributions are welcome! Please follow these steps to contribute:
 ## License
 
 This project is licensed under the MIT OR Apache-2.0 License. See the LICENSE file for more details.
-
-## Additional Resources
-
-- Homepage
-- Issue Tracker
-- CI Pipeline

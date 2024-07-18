@@ -60,6 +60,15 @@ documentation = "https://docs.rs/<CHANGE HERE::your-project-name>"
 readme = "README.md"
 keywords = ["<CHANGE HERE::your-project-keyword>", "<CHANGE HERE::your-project-keyword>", "<CHANGE HERE::your-project-keyword>"]
 categories = ["development-tools", "parsing"]
+exclude = [
+    "scripts/",
+    ".pre-commit-*.yaml",
+    "ListOfTools.txt",
+    "install-tools.sh",
+    ".github",
+]
+rust-version = "1.74"
+publish = true
 
 [workspace.metadata]
 # Custom metadata for your workspace
