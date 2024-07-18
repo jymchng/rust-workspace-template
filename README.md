@@ -1,6 +1,8 @@
 <div align = "center">
 <h1>`your-project-name`</h1>
-
+    <a href="https://crates.io/crates/rust-workspace-template"><img alt="Crates.io Version" src="https://img.shields.io/crates/v/rust-workspace-template?logo=rust&style=for-the-badge" height="23"></a>
+  <a href="https://docs.rs/rust-workspace-template"><img alt="docs.rs" src="https://img.shields.io/crates/v/rust-workspace-template?color=blue&label=docs&style=for-the-badge" height="23"></a>
+  <p><p>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" height="20">
   </a>
