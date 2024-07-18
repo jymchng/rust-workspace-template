@@ -93,7 +93,6 @@ Welcome to the `<your-project-name>` Rust workspace! This project is designed to
 6. [Usage Instructions](#usage-instructions)
 7. [Contributing](#contributing)
 8. [License](#license)
-9. [Additional Resources](#additional-resources)
 
 ## Workspace Overview
 
